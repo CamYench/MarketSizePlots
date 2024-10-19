@@ -1,0 +1,794 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='MarketProjectionData' inline='true' name='federated.1tlm6i10ucyh1811vz2091eicy7d' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='MarketProjectionData' name='textscan.0v37f431wzyor51ftnc5p1d4ofun'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='/Users/cameron/Documents/GitHub/MarketSizePlots/data/MarketProjectionData.csv' dataRefreshTime='' directory='/Users/cameron/Documents/GitHub/MarketSizePlots/data' filename='/var/folders/01/ywcqvscj4l18sf1r_08v7pqm0000gn/T/tableau-temp/1sxt1mc0h45ha1139qsd103lcmjy/MarketProjectionData.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0v37f431wzyor51ftnc5p1d4ofun' name='MarketProjectionData.csv' table='[MarketProjectionData#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:O12:no:A1:O12:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Brain Computer Interface (BCI)' ordinal='1' />
+            <column datatype='real' name='Neuromorphic Computing' ordinal='2' />
+            <column datatype='real' name='GPU Industry' ordinal='3' />
+            <column datatype='real' name='AI Accelerated Chips' ordinal='4' />
+            <column datatype='real' name='Quantum Computing' ordinal='5' />
+            <column datatype='real' name='Compute for Advanced Robotics' ordinal='6' />
+            <column datatype='real' name='Neuroprosthetics' ordinal='7' />
+            <column datatype='real' name='General Stem Cell' ordinal='8' />
+            <column datatype='real' name='Adult Stem Cells' ordinal='9' />
+            <column datatype='real' name='Induced Pluripotent Stem Cells' ordinal='10' />
+            <column datatype='real' name='Embryonic Stem Cells' ordinal='11' />
+            <column datatype='real' name='Perinatal Stem Cells' ordinal='12' />
+            <column datatype='real' name='Optogenetic Therapeutics' ordinal='13' />
+            <column datatype='real' name='Optogenetic Diagnostics' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:O12:no:A1:O12:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>165</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brain Computer Interface (BCI)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Brain Computer Interface (BCI)]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Brain Computer Interface (BCI)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neuromorphic Computing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neuromorphic Computing]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Neuromorphic Computing</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GPU Industry</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GPU Industry]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>GPU Industry</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AI Accelerated Chips</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AI Accelerated Chips]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>AI Accelerated Chips</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantum Computing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Quantum Computing]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Quantum Computing</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Compute for Advanced Robotics</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Compute for Advanced Robotics]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Compute for Advanced Robotics</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neuroprosthetics</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neuroprosthetics]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Neuroprosthetics</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>General Stem Cell</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[General Stem Cell]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>General Stem Cell</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adult Stem Cells</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adult Stem Cells]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Adult Stem Cells</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Induced Pluripotent Stem Cells</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Induced Pluripotent Stem Cells]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Induced Pluripotent Stem Cells</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Embryonic Stem Cells</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Embryonic Stem Cells]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Embryonic Stem Cells</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Perinatal Stem Cells</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Perinatal Stem Cells]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Perinatal Stem Cells</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Optogenetic Therapeutics</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Optogenetic Therapeutics]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Optogenetic Therapeutics</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Optogenetic Diagnostics</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Optogenetic Diagnostics]</local-name>
+            <parent-name>[MarketProjectionData.csv]</parent-name>
+            <remote-alias>Optogenetic Diagnostics</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='AI Accelerated Chips Market Value' datatype='real' name='[AI Accelerated Chips]' role='measure' type='quantitative' />
+      <column caption='Adult Stem Cells Market Value' datatype='real' name='[Adult Stem Cells]' role='measure' type='quantitative' />
+      <column caption='Brain Computer Interface (BCI) Market Value' datatype='real' name='[Brain Computer Interface (BCI)]' role='measure' type='quantitative' />
+      <column caption='Compute for Advanced Robotics Market Value' datatype='real' name='[Compute for Advanced Robotics]' role='measure' type='quantitative' />
+      <column caption='Embryonic Stem Cells Market Value' datatype='real' name='[Embryonic Stem Cells]' role='measure' type='quantitative' />
+      <column caption='GPU Industry Market Value' datatype='real' name='[GPU Industry]' role='measure' type='quantitative' />
+      <column caption='General Stem Cell Market Value' datatype='real' name='[General Stem Cell]' role='measure' type='quantitative' />
+      <column caption='Induced Pluripotent Stem Cells Market Value' datatype='real' name='[Induced Pluripotent Stem Cells]' role='measure' type='quantitative' />
+      <column caption='Neuromorphic Computing Market Value' datatype='real' name='[Neuromorphic Computing]' role='measure' type='quantitative' />
+      <column caption='Neuroprosthetics Market Value' datatype='real' name='[Neuroprosthetics]' role='measure' type='quantitative' />
+      <column caption='Optogenetic Diagnostics Market Value' datatype='real' name='[Optogenetic Diagnostics]' role='measure' type='quantitative' />
+      <column caption='Optogenetic Therapeutics Market Value' datatype='real' name='[Optogenetic Therapeutics]' role='measure' type='quantitative' />
+      <column caption='Perinatal Stem Cells Market Value' datatype='real' name='[Perinatal Stem Cells]' role='measure' type='quantitative' />
+      <column caption='Quantum Computing Market Value' datatype='real' name='[Quantum Computing]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='MarketProjectionData.csv' datatype='table' name='[__tableau_internal_object_id__].[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AI Accelerated Chips]' derivation='Attribute' name='[attr:AI Accelerated Chips:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Optogenetic Diagnostics]' derivation='Attribute' name='[attr:Optogenetic Diagnostics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Optogenetic Therapeutics]' derivation='Attribute' name='[attr:Optogenetic Therapeutics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Optogenetic Diagnostics]' derivation='None' name='[none:Optogenetic Diagnostics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Optogenetic Therapeutics]' derivation='None' name='[none:Optogenetic Therapeutics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[AI Accelerated Chips]' derivation='Sum' name='[sum:AI Accelerated Chips:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Adult Stem Cells]' derivation='Sum' name='[sum:Adult Stem Cells:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Brain Computer Interface (BCI)]' derivation='Sum' name='[sum:Brain Computer Interface (BCI):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Compute for Advanced Robotics]' derivation='Sum' name='[sum:Compute for Advanced Robotics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Embryonic Stem Cells]' derivation='Sum' name='[sum:Embryonic Stem Cells:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GPU Industry]' derivation='Sum' name='[sum:GPU Industry:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[General Stem Cell]' derivation='Sum' name='[sum:General Stem Cell:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Induced Pluripotent Stem Cells]' derivation='Sum' name='[sum:Induced Pluripotent Stem Cells:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Neuromorphic Computing]' derivation='Sum' name='[sum:Neuromorphic Computing:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Neuroprosthetics]' derivation='Sum' name='[sum:Neuroprosthetics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Optogenetic Diagnostics]' derivation='Sum' name='[sum:Optogenetic Diagnostics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Optogenetic Therapeutics]' derivation='Sum' name='[sum:Optogenetic Therapeutics:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Perinatal Stem Cells]' derivation='Sum' name='[sum:Perinatal Stem Cells:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Quantum Computing]' derivation='Sum' name='[sum:Quantum Computing:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:GPU Industry:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Diagnostics:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[none:Optogenetic Diagnostics:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Optogenetic Diagnostics:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Brain Computer Interface (BCI):qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Neuromorphic Computing:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:General Stem Cell:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Compute for Advanced Robotics:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:AI Accelerated Chips:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:AI Accelerated Chips:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Quantum Computing:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[__tableau_internal_object_id__].[cnt:MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[none:Calculation_919438016585801728:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Neuroprosthetics:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Embryonic Stem Cells:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Therapeutics:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[none:Optogenetic Therapeutics:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Optogenetic Therapeutics:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Perinatal Stem Cells:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Induced Pluripotent Stem Cells:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.1tlm6i10ucyh1811vz2091eicy7d].[sum:Adult Stem Cells:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='MarketProjectionData.csv' id='MarketProjectionData.csv_7F8D32A2D6B648889244CFD69CBBCEE0'>
+            <properties context=''>
+              <relation connection='textscan.0v37f431wzyor51ftnc5p1d4ofun' name='MarketProjectionData.csv' table='[MarketProjectionData#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:O12:no:A1:O12:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='real' name='Brain Computer Interface (BCI)' ordinal='1' />
+                  <column datatype='real' name='Neuromorphic Computing' ordinal='2' />
+                  <column datatype='real' name='GPU Industry' ordinal='3' />
+                  <column datatype='real' name='AI Accelerated Chips' ordinal='4' />
+                  <column datatype='real' name='Quantum Computing' ordinal='5' />
+                  <column datatype='real' name='Compute for Advanced Robotics' ordinal='6' />
+                  <column datatype='real' name='Neuroprosthetics' ordinal='7' />
+                  <column datatype='real' name='General Stem Cell' ordinal='8' />
+                  <column datatype='real' name='Adult Stem Cells' ordinal='9' />
+                  <column datatype='real' name='Induced Pluripotent Stem Cells' ordinal='10' />
+                  <column datatype='real' name='Embryonic Stem Cells' ordinal='11' />
+                  <column datatype='real' name='Perinatal Stem Cells' ordinal='12' />
+                  <column datatype='real' name='Optogenetic Therapeutics' ordinal='13' />
+                  <column datatype='real' name='Optogenetic Diagnostics' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='MarketProjectionData' name='federated.1tlm6i10ucyh1811vz2091eicy7d' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tlm6i10ucyh1811vz2091eicy7d'>
+            <column caption='Optogenetic Diagnostics Market Value' datatype='real' name='[Optogenetic Diagnostics]' role='measure' type='quantitative' />
+            <column caption='Optogenetic Therapeutics Market Value' datatype='real' name='[Optogenetic Therapeutics]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Optogenetic Diagnostics]' derivation='Attribute' name='[attr:Optogenetic Diagnostics:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Optogenetic Therapeutics]' derivation='Attribute' name='[attr:Optogenetic Therapeutics:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Therapeutics:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Diagnostics:qk]' scope='rows' value='Market Value ($ Millions)' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1tlm6i10ucyh1811vz2091eicy7d].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Diagnostics:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1tlm6i10ucyh1811vz2091eicy7d].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Therapeutics:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1tlm6i10ucyh1811vz2091eicy7d].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Diagnostics:qk] + [federated.1tlm6i10ucyh1811vz2091eicy7d].[attr:Optogenetic Therapeutics:qk])</rows>
+        <cols>[federated.1tlm6i10ucyh1811vz2091eicy7d].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{DDDFD421-D76E-43F3-B621-67910DFAD81D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1tlm6i10ucyh1811vz2091eicy7d].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tlm6i10ucyh1811vz2091eicy7d].[:Measure Names]</field>
+            <field>[federated.1tlm6i10ucyh1811vz2091eicy7d].[none:Calculation_919438016585801728:qk]</field>
+            <field>[federated.1tlm6i10ucyh1811vz2091eicy7d].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{17E954AF-15A9-49B0-A981-E07A8DCA5348}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      Wk8vUm7/H1q63KbEEdErAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
